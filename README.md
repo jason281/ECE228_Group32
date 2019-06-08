@@ -1,8 +1,8 @@
 # ECE228_Group32
-[1. Downlaod Dataset](#1-download-dataset)
-[2. Preprocessing](#2-preprocessing)
-[3. Training Models](#3-training-models)
-[Dependencies](#dependencies)
+[1. Downlaod Dataset](#1-download-dataset)  
+[2. Preprocessing](#2-preprocessing) 
+[3. Training Models](#3-training-models)  
+[Dependencies](#dependencies)  
 
 ## 1. Download Dataset
 Run the following comman in command line prompt to download the dataset.
@@ -32,3 +32,8 @@ blah blah blah
 blah blah blah
 
 ## Dependencies
+* Python3
+* Jupyter
+* Keras
+* sklearn
+* tqdm
