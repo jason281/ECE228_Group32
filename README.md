@@ -14,21 +14,23 @@ bash Download.sh
 
 ## 3. Training Models
 ### 3.1 Neural Network (nn.ipynb)
-#### WHat is this file doing
-blah blah blah
-#### How to use this file
-blah blah blah
+#### Introduction
+Train a shallow neural network with dropout layer and batch normalization. The training and testing accuracy is 0.742 and 0.450 respectively.
+#### Usage
+Generate preprocessed data using Preprocessing.ipynb then run this notebook.
 
-### 3.1 Boosting (nn.ipynb)
-#### WHat is this file doing
-blah blah blah
-#### How to use this file
-blah blah blah
+### 3.1 Boosting (nn_generate_model.ipynb & nn_regression_ensemble.ipynb)
+#### Introduction
+There are 11 main feature groups in this dataset. We train separate nn models for these feature groups then use regularized logistic regression to ensemble these models. The training and testing accuracy is 0.707 and 0.454 respectively.
+#### Usage
+* Generate preprocessed data using Preprocessing.ipynb.
+* Train separate nn models with various feature groups using nn_generate_model.ipynb.
+* Ensemble 11 nn models with logistic regression using nn_regression_ensemble.ipynb.
 
 ### 3.1 LSTM (nn.ipynb)
-#### WHat is this file doing
+#### Introduction
 blah blah blah
-#### How to use this file
+#### Usage
 blah blah blah
 
 ## Dependencies
