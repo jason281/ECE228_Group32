@@ -11,6 +11,10 @@ bash Download.sh
 ```
 
 ## 2. Preprocessing
+#### Introduction
+Split dataset into training (80%), validation (10%) and testing set (10%), and then store them as pickle file.
+#### Usage
+Run Preprocessing.ipynb.
 
 ## 3. Training Models
 ### 3.1 Neural Network (nn.ipynb)
